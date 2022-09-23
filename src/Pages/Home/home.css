@@ -1,0 +1,13 @@
+:root {
+  --bg-white-color: #fff;
+  --main-pink: #c71f66;
+
+  --header-zIndex: 1000;
+  --header-height: 70px;
+}
+
+.sdfsfd {
+  background-color: var(--bg-white-color);
+  background-color: var(--main-pink);
+  height: var(--header-height);
+}

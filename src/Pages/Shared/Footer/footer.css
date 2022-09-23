@@ -1,0 +1,94 @@
+/********************Importent*********************************
+
+ every css Variable is in the home.css file in home componenet
+ 
+************************************************************/
+
+/* Footer */
+
+.home-footer-container {
+}
+.home-footer-container .footer-main {
+  background-color: #ebecef;
+}
+.home-footer-container .footer-bottom {
+  background-color: #dfe0e3;
+
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+}
+.home-footer-container .list-text > li {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2;
+  /* color: rgba(0, 0, 0, 0.75); */
+  margin-bottom: 0;
+}
+.home-footer-container .list-link > li {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2;
+  /* color: rgba(0, 0, 0, 0.75); */
+  cursor: pointer;
+  margin-bottom: 5;
+  margin-top: 5px;
+}
+
+.home-footer-container .footer-main {
+  padding: 50px 15px 35px;
+}
+.home-footer-container .footer-bottom {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-footer-container .list-header {
+  font-size: 14px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.9);
+  padding-bottom: 16px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.last-column {
+  text-align: end;
+}
+.home-footer-container .download-app-link {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.home-footer-container .download-app-link img {
+  height: 48px;
+  width: auto;
+  /* margin: 5px; */
+  border-radius: 10px;
+}
+
+.home-footer-container .social-link {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 10px !important;
+}
+.home-footer-container .social-link img {
+  height: 32px;
+  width: auto;
+  /* margin: 5px; */
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .home-footer-container .social-link {
+    justify-content: start;
+  }
+  .home-footer-container .download-app-link {
+    justify-content: start;
+  }
+  .last-column {
+    text-align: start;
+  }
+}

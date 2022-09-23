@@ -1,0 +1,11 @@
+.app-btn {
+  background-color: #c71c66;
+  padding: 10px 0;
+}
+.app-logo img {
+  height: 48px;
+  width: auto;
+  /* margin: 5px; */
+  border-radius: 10px;
+  margin-left: 10px;
+}

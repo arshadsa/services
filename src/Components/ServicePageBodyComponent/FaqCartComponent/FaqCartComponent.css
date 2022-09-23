@@ -1,0 +1,25 @@
+h3.faq-btn div {
+  background-color: #c71f66;
+  color: white;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3px;
+}
+
+h3.faq-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+.faq-ans {
+  transition: all 0.3s ease-in-out;
+}

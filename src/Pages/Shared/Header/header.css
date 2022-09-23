@@ -1,0 +1,54 @@
+/********************Importent*********************************
+
+ every css Variable is in the home.css file in home componenet
+ 
+************************************************************/
+
+.home-header {
+  position: relative;
+  min-height: var(--header-height);
+  height: 100%;
+
+  font-size: 18px;
+  font-weight: 600;
+  z-index: var(--header-zIndex);
+}
+.home-header .navbar {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%);
+}
+
+.home-header .navbar {
+  z-index: 1000;
+  position: fixed;
+  top: 0px;
+  height: 70px;
+  width: 100%;
+  background-color: var(--bg-white-color);
+}
+.navigation-picker {
+  font-size: 18px;
+  font-weight: 600;
+}
+.navigation-picker button {
+  font-size: 18px;
+  font-weight: 600;
+}
+.navigation-picker img {
+  height: 24px;
+  width: 24px;
+}
+.top-search-bg {
+  background-color: var(--main-pink);
+}
+
+.home-header-links {
+  gap: 1rem;
+}
+@media screen and (max-width: 425px) {
+  .header-short-search {
+    display: none;
+  }
+  .home-header-links {
+    gap: 0.5rem;
+  }
+}

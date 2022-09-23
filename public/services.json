@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Plumbing & Sanitary Services",
+    "img" :"/service-image.webp"
+  },
+  {
+    
+    "id": 2,
+    "title": "Painting Services",
+    "img" :"/painting-services.webp"
+  },
+  {
+    "id": 3,
+    "title": "Home Cleaning",
+    "img" :"/home-cleaning.webp"
+  },
+  {
+    
+    "id": 4,
+    "title": "Pest Control Service",
+    "img" :"/pest-control-service.webp"
+  },
+  {
+    "id": 5,
+    "title": "House Shifting Services",
+    "img" :"/house-shifting.webp"
+  }  
+]
